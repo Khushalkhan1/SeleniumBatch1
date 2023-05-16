@@ -17,7 +17,7 @@ public class WindowHandleDemo1 {
         driver.manage().window().maximize();
         String mainPageHandle = driver.getWindowHandle();
         System.out.println(mainPageHandle);
-        WebElement helpLink = driver.findElement(By.linkText("Yardım"));
+        WebElement helpLink = driver.findElement(By.linkText("Help"));
         helpLink.click();
         Set<String> windowHandle = driver.getWindowHandles();
         System.out.println(windowHandle.size());

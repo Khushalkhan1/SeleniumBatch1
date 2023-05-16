@@ -20,8 +20,12 @@ public class ImplicitWaitDemo {
         enableButton.click();
         WebElement text= driver.findElement(By.id("message"));
         System.out.println("Is the Text message displayed ? : "+text.isDisplayed());
+
         WebElement removeButton= driver.findElement(By.cssSelector("#checkbox-example>button"));
-        removeButton.getText();
+        removeButton.click();
+        WebElement checkBox=driver.findElement(By.id("message"));
+        System.out.println("Is the add button displayed ? : "+checkBox.isDisplayed());
+
 
 
 
