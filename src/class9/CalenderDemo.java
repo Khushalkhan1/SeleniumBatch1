@@ -16,7 +16,6 @@ public class CalenderDemo {
         driver.get("https://dreamhiringacademy.com/user/index.php");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-
         WebElement userName = driver.findElement(By.id("username"));
         userName.sendKeys("aziz@gmail.com");
         WebElement password = driver.findElement(By.id("password"));
