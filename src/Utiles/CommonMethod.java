@@ -1,5 +1,6 @@
 package Utiles;
 
+import POM.BaseClasses.BaseClass;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
